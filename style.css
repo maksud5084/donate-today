@@ -1,0 +1,28 @@
+body {
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.click-button {
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: brown;
+    border-radius: 5px;
+    color: white;
+
+}
+
+.top-part {
+    text-align: center;
+    background-image: url(images/donation1.jpg);
+    padding-bottom: 200px;
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.top-part-div {
+    padding-top: 50px;
+    font-size: 20px;
+    line-height: 30px;
+}
