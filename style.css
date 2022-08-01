@@ -1,5 +1,6 @@
 body {
     font-family: 'Poppins', sans-serif;
+    margin: 0px;
 
 }
 
@@ -14,15 +15,84 @@ body {
 
 .top-part {
     text-align: center;
-    background-image: url(images/donation1.jpg);
     padding-bottom: 200px;
     color: white;
     background-repeat: no-repeat;
     background-size: cover;
+    background-image: url(images/donation1.jpg);
 }
 
 .top-part-div {
     padding-top: 50px;
     font-size: 20px;
     line-height: 30px;
+}
+
+.donate {
+    text-align: center;
+}
+
+.amount div {
+    display: inline;
+    padding: 30px 20px;
+    font-size: 20px;
+    border-radius: 5px;
+    margin: 20px;
+}
+
+#stylist-div {
+    border: 2px solid pink;
+    color: darksalmon;
+    background-color: antiquewhite;
+}
+
+.same-div {
+    background-color: rgb(253, 251, 251);
+    padding: 5px;
+}
+
+input {
+    border: none;
+}
+
+hr {
+    width: 50%;
+}
+
+.middle-part div {
+    text-align: center;
+}
+
+.plan {
+    display: flex;
+    padding: 20px;
+
+}
+
+#food {
+    border: 1px solid rgb(234, 242, 248);
+    padding: 20px;
+    margin: 20px;
+    width: 33%;
+    border-radius: 5px;
+    background-color: rgb(234, 242, 248);
+
+}
+
+#shelter {
+    border: 1px solid rgb(234, 242, 248);
+    padding: 20px;
+    margin: 20px;
+    width: 33%;
+    border-radius: 5px;
+    background-color: rgb(250, 234, 236);
+}
+
+#education {
+    border: 1px solid rgb(216, 204, 180);
+    padding: 20px;
+    margin: 20px;
+    width: 33%;
+    border-radius: 5px;
+    background-color: rgb(216, 204, 180);
 }
