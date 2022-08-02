@@ -4,15 +4,6 @@ body {
 
 }
 
-.click-button {
-    text-decoration: none;
-    padding: 10px 20px;
-    background-color: brown;
-    border-radius: 5px;
-    color: white;
-
-}
-
 .top-part {
     text-align: center;
     padding-bottom: 200px;
@@ -20,12 +11,18 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-image: url(images/donation1.jpg);
-}
-
-.top-part-div {
     padding-top: 50px;
     font-size: 20px;
-    line-height: 30px;
+    line-height: normal;
+}
+
+.click-button {
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: brown;
+    border-radius: 5px;
+    color: white;
+
 }
 
 .donate {
