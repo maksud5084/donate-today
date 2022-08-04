@@ -1,11 +1,10 @@
 body {
     font-family: 'Poppins', sans-serif;
     margin: 0px;
-
+    text-align: center;
 }
 
 .top-part {
-    text-align: center;
     padding-bottom: 200px;
     color: white;
     background-repeat: no-repeat;
@@ -23,10 +22,6 @@ body {
     border-radius: 5px;
     color: white;
 
-}
-
-.donate {
-    text-align: center;
 }
 
 .amount div {
@@ -48,16 +43,12 @@ body {
     padding: 5px;
 }
 
-input {
+#taka {
     border: none;
 }
 
 hr {
     width: 50%;
-}
-
-.middle-part div {
-    text-align: center;
 }
 
 .plan {
@@ -92,4 +83,52 @@ hr {
     width: 33%;
     border-radius: 5px;
     background-color: rgb(216, 204, 180);
+}
+
+.bonus-part {
+    display: flex;
+}
+
+.half-width {
+    line-height: 25px;
+    padding: 10px;
+}
+
+.half-width img {
+    width: 80%;
+}
+
+#footer-part {
+    background-color: black;
+
+    color: brown;
+    padding-top: 25px;
+    padding-bottom: 20px;
+    line-height: 30px;
+}
+
+#small {
+    color: white;
+}
+
+form {
+    background-color: rgb(250, 242, 243);
+    width: 50%;
+    margin-left: 290px;
+    padding: 75px;
+}
+
+#input {
+    padding: 10px;
+    border: none;
+    color: rgb(55, 56, 58);
+}
+
+#btn {
+    border: none;
+    padding: 10px;
+    width: 100px;
+    background-color: brown;
+    border-radius: 5px;
+    color: white;
 }
